@@ -46,7 +46,7 @@ nav button{
 
 /* banner section css */
 .banner{
-    background-image: url("/images/assets/hero-bg.png");
+    background-image: url("./images/assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     height: 670px;
