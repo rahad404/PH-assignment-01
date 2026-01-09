@@ -1,0 +1,41 @@
+/* google font inter */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    font-family: Inter;
+}
+
+/* header section css */
+nav{
+    display: flex;
+    margin: 16px auto;
+    justify-content: space-between;
+    max-width: 1360px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav button{
+    padding: 12.5px 16px;
+    color: white;
+    background-color: #469165;
+    border-radius: 5px;
+    border: none;
+}
+
+/* navigation hover effect */
