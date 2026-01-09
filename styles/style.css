@@ -170,6 +170,7 @@ nav button{
     margin-bottom: 16px;
 }
 .card p{
+    margin-bottom: 10px;
     font-size: 16px;
     color: #627382;
 }
@@ -284,4 +285,42 @@ footer{
     color: #627382;
     text-align: center;
     padding-top: 10px;
+}
+
+/* hover effect for css */
+nav ul li a:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #c5c5c5;
+    transition: 0.3s;
+}
+
+nav button:hover{
+    border: 3px solid #254d25;
+    transition: 0.3s;
+}
+
+#start:hover{
+    border: 3px solid #ffffff;
+    background-color: #469165;
+    color: #ffffff;
+    transition: 0.3s;
+}
+#see:hover{
+    background-color: #c5c5c5;
+    color: #292929;
+    transition: 0.3s;
+}
+
+.early-access button:hover{
+    border: 3px solid #ffffff;
+    background-color: #469165;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
 }
