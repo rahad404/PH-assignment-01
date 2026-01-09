@@ -166,11 +166,59 @@ nav button{
     background-color: #F95555;
 }
 .card h3{
-    font-size: 24;
+    font-size: 24px;
     margin-bottom: 16px;
 }
 .card p{
-    font-size: 16;
+    font-size: 16px;
     color: #627382;
 }
 
+/* secont brain css */
+.second-brain{
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    gap: 25px;
+}
+.second-brain img{
+    height: 600px;
+    width: 600px;
+}
+
+.s-b-text p{
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: #627382;
+}
+.s-b-text h2{
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+.s-b-text li{
+    margin-left: 25px;
+    padding: 8px 0px;
+    list-style: none;
+    list-style-image: url(../images/assets/CheckCircle.png);
+}
+
+/* early access section */
+.early-access{
+    margin: 120px;
+    background: #e2e2e2;
+    border: none;
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    
+}
