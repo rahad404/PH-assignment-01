@@ -8,6 +8,12 @@
 
 *{
     font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
 }
 
 /* header section css */
@@ -38,4 +44,80 @@ nav button{
     border: none;
 }
 
-/* navigation hover effect */
+/* banner section css */
+.banner{
+    background-image: url("/images/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.early-access{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: fit-content;
+}
+.early-access p{
+    font-size: 16px;
+    color: #469165;
+}
+
+.title{
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 72px;
+    color: white;
+}
+.title p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#start{
+    background-color: #30B868;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#see{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px
+}
+
