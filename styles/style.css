@@ -46,7 +46,7 @@ nav button{
 
 /* banner section css */
 .banner{
-    background-image: url("./images/assets/hero-bg.png");
+    background-image: url("../images/assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     height: 670px;
@@ -119,5 +119,58 @@ nav button{
     color: white;
     border: 3px solid white;
     border-radius: 5px
+}
+
+/* note section css */
+
+.notes{
+    background-color: #e2e2e2;
+}
+
+.note-discription{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    gap: 20px;
+}
+
+.note-discription h1{
+    font-size: 48px;   
+}
+.note-discription p{
+    font-size: 16px;
+    color: #627382;
+}
+
+/* card */
+.all-cards{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    gap: 24px;
+}
+.card{
+    margin-bottom: 10px;
+    padding: 69px 24px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.card img{
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+    background-color: #F95555;
+}
+.card h3{
+    font-size: 24;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16;
+    color: #627382;
 }
 
